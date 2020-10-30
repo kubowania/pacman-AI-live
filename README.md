@@ -1,9 +1,9 @@
-# pacman-with-voice-AI-final
-Final code for tutorial pacman-with-voice-AI
+# Playable Pacman Game with voice AI commands
+Live game of PacMan with voice AI to play.
 
-This is the final code for my video tutorial, made for your guidance. In this video tutorial, you will learn how to implement Alan A.I voice commands into an exisitng game of pacman.
+This is the playable version of the pacman game to go along-side my video tutorial. In the [video tutorial](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw), you will learn how to implement Alan A.I voice commands into an existing game of pacman.
 
-This is a great tutorial for those of you wishing to learn about how to envoke functions with voice commands using [Alan A.I](XXX). 
+This is a great tutorial for those of you wishing to learn about how to envoke functions with voice commands using [Alan A.I](https://alan.app/AniaKubowJavaScriptGames). 
 
 ### What you’ll learn
 * Implementing Voice Commands into JavaScript Projects

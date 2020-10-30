@@ -1,8 +1,10 @@
+import "./style.css"
+
 const scoreDisplay = document.getElementById('score')
 const startButton = document.getElementById('start-button')
 const width = 28
 let score = 0
-let gameOverId
+let gameOverId 
 let checkWinId
 let leftId
 let rightId

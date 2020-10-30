@@ -9,9 +9,6 @@ let rightId
 let upId
 let downId
 
-const background = document.querySelector('body')
-background.style.backgroundColor = 'red';
-
 const grid = document.querySelector('.grid')
 const layout = [
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,

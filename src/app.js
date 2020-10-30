@@ -8,6 +8,10 @@ let leftId
 let rightId
 let upId
 let downId
+
+const background = document.querySelector('body')
+background.style.backgroundColor = '#181A25';
+
 const grid = document.querySelector('.grid')
 const layout = [
   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,

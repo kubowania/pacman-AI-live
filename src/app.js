@@ -10,7 +10,7 @@ let upId
 let downId
 
 const background = document.querySelector('body')
-background.style.backgroundColor = '#181A25';
+background.style.backgroundColor = 'red';
 
 const grid = document.querySelector('.grid')
 const layout = [

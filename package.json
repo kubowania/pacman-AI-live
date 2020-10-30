@@ -1,6 +1,6 @@
 {
   "homepage": "http://kubowania.github.io/pacman-AI-live",
-  "name": "project2",
+  "name": "pacman-ai-live",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

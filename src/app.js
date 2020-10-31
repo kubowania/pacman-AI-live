@@ -1,4 +1,4 @@
-// import ".style.css"
+import "./style.css"
 
 const scoreDisplay = document.getElementById('score')
 const startButton = document.getElementById('start-button')

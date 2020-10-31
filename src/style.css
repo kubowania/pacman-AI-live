@@ -18,7 +18,7 @@ body {
   height: 20px;
 }
 
-.blinky {
+/* .blinky {
   background-image: url('images/blinky.png');
   z-index: +2;
 }
@@ -110,4 +110,4 @@ h4 {
 .power-pellet {
   background-image: radial-gradient(white 55%, transparent 5%);
   z-index: -1;
-}
+} */

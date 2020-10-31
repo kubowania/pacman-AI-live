@@ -1,4 +1,6 @@
-import "./style.css"
+//importing CSS seems to get rid of Alan AI Script and JS Script stops working properly. 
+//I have commented out the Stylesheet import for now.
+// import "./style.css"
 
 const scoreDisplay = document.getElementById('score')
 const startButton = document.getElementById('start-button')
@@ -71,15 +73,6 @@ function createBoard() {
   }
 }
 createBoard()
-
-function startGame() {
-  //move the Ghosts randomly
-  ghosts.forEach(ghost => moveGhost(ghost))
-  document.addEventListener('keyup', movePacman)
-  checkWinId = setInterval(checkForWin, 100)
-  gameOverId = setInterval(checkForGameOver, 100)
-}
-startButton.addEventListener('click', startGame)
 
 //create Characters
 //draw pacman onto the board
@@ -308,6 +301,16 @@ function checkForWin() {
     clearInterval(checkWinId)
   }
 }
+
+
+function startGame() {
+  //move the Ghosts randomly
+  ghosts.forEach(ghost => moveGhost(ghost))
+  document.addEventListener('keyup', movePacman)
+  checkWinId = setInterval(checkForWin, 100)
+  gameOverId = setInterval(checkForGameOver, 100)
+}
+startButton.addEventListener('click', startGame)
 
 // Please hide your SDK key and do not publish onto GitHub or share on the internet. This project is for your own local use only and not to be published onto
 // your GitHub with your Key visible to others.

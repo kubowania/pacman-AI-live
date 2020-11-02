@@ -19,50 +19,50 @@ body {
 }
 
 .blinky {
-  background-image: url('images/blinky.png');
+  background-image: url('./images/blinky.png');
   z-index: +2;
 }
 
 .pinky {
-  background-image: url('images/pinky.png');
+  background-image: url('./images/pinky.png');
   z-index: +2;
 }
 
 .inky {
-  background-image: url('images/inky.png');
+  background-image: url('./images/inky.png');
   z-index: +2;
 }
 
 .clyde {
-  background-image: url('images/clyde.png');   
+  background-image: url('./images/clyde.png');   
   z-index: +2; 
 }
 
 .pac-man-left {
-  background-image: url('images/pacman.png');  
+  background-image: url('./images/pacman.png');  
   border-radius: 10px;
   transform: rotate(180deg);
 }
 
 .pac-man-right {
-  background-image: url('images/pacman.png');  
+  background-image: url('./images/pacman.png');  
   border-radius: 10px;
 }
 
 .pac-man-up {
-  background-image: url('images/pacman.png');  
+  background-image: url('./images/pacman.png');  
   border-radius: 10px;
   transform: rotate(270deg);
 }
 
 .pac-man-down {
-  background-image: url('images/pacman.png');  
+  background-image: url('./images/pacman.png');  
   border-radius: 10px;
   transform: rotate(90deg);
 }
 
 .scared-ghost {
-  background-image: url('images/scared-ghost.png');
+  background-image: url('./images/scared-ghost.png');
 }
 
 .container {
